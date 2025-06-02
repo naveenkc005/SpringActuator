@@ -35,6 +35,7 @@ public class SpringActuatorApplication {
 	@GetMapping("/link")
 	public String getActuatorDetails(){
 		//you can find more details here
-		return "https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.endpoints";
+	//	return "https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.endpoints";
+		return "Spring Actuator demo";
 	}
 }

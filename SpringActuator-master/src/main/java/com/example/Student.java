@@ -1,5 +1,6 @@
-package com.in28minutes.springboot.rest.example.student;
+package com.example;
 
 public class Student {
     private String name="";
+    private int age= 25;
 }
